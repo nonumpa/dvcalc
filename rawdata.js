@@ -259,15 +259,16 @@ const dragonList = [
 ];
 
 const specialTraits = [
-    { nameEn: "Noble", nameKo: "高貴的", stats: [20, 20, 20, 20] },
+    { nameEn: "Classy", nameKo: "有格調的(3代內純種4屬過20)", stats: [20, 20, 20, 20] },
+    { nameEn: "Noble", nameKo: "高貴的(5代內純種4屬過20)", stats: [20, 20, 20, 20] },
+    { nameEn: "Arrogant", nameKo: "傲慢的(觀看200)", stats: [25, 25, 25, 25] },
     { nameEn: "Immersed", nameKo: "專注的", stats: [0, 0, 0, 0] },
-    // { nameEn: "Distracted", nameKo: "散漫的", stats: [0, 0, 0, 0] },
-    { nameEn: "Arrogant", nameKo: "傲慢的", stats: [25, 25, 25, 25] },
     { nameEn: "Perfectionist", nameKo: "完美主義者", stats: [20, 20, 20, 20] },
     { nameEn: "Capable", nameKo: "有能力的", stats: [28, 28, 28, 28] },
-    { nameEn: "Meticulous", nameKo: "精確的", stats: [0, 0, 0, 0] },
-    { nameEn: "Dull", nameKo: "平凡的", stats: [20, 20, 20, 20] },
-    { nameEn: "Classy", nameKo: "風度翩翩的", stats: [20, 20, 20, 20] }
+    { nameEn: "Meticulous", nameKo: "一絲不苟的", stats: [0, 0, 0, 0] },
+    { nameEn: "Dull", nameKo: "平凡的", stats: [20, 20, 20, 20] }
+    // { nameEn: "Distracted", nameKo: "散漫的", stats: [0, 0, 0, 0] }
+
 ];
 
 const normalTraits = [
