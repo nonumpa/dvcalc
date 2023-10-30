@@ -1,7 +1,7 @@
 const dragonList = [
     { name: ["Gaian", "蓋安"], traitsEn: ["Bold", "Calm"], traitsKo: ["大膽的", "沉穩的"], Bold: [0, 30, 10, 0], Calm: [5, 0, 20, 5] },
     { name: ["Gautling-Gon", "格林"], traitsEn: ["Quiet", "Bold"], traitsKo: ["冷靜的", "大膽的"], Quiet: [0, 5, 20, 5], Bold: [0, 20, 0, 10] },
-    { name: ["Girdletail Dragon", "鎧蜥龍"], traitsEn: ["Bold", "Rash"], traitsKo: ["大膽的", "莽撞的"], Bold: [10, 30, 0, 0], Rash: [25, 0, 0, 10] },
+    { name: ["Girdletail Dragon", "鎧蜥龍"], traitsEn: ["Bold", "Rash"], traitsKo: ["大膽的", "莽撞的"], Bold: [10, 30, 0, 0], Rash: [25, 10, 0, 10] },
     { name: ["Gust", "格斯特"], traitsEn: ["Hasty", "Adamant"], traitsKo: ["急躁的", "固執的"], Hasty: [25, 10, 10, 0], Adamant: [5, 20, 5, 0] },
     { name: ["God Dragon", "古代神龍"], traitsEn: ["Brave", "Docile"], traitsKo: ["勇敢的", "溫和的"], Brave: [0, 25, 10, 10], Docile: [0, 10, 10, 30] },
     { name: ["God Jr", "古代神龍二世"], traitsEn: ["Brave", "Hasty"], traitsKo: ["勇敢的", "急躁的"], Brave: [0, 30, 15, 15], Hasty: [30, 10, 10, 0] },
