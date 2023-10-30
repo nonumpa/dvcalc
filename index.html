@@ -1,1 +1,217 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DVC 養成計算機.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jbilee.github.io/dvc/">
+    <meta property="og:title" content="DVC 個性計算機">
+    <meta property="og:image" content="https://i.imgur.com/19p98ma.png">
+    <meta property="og:description" content="DVC 養成計算機.">
+    <meta property="og:site_name" content="DVC 個性計算機">
+    <meta property="og:locale" content="en-US">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="DVC 個性計算機">
+    <meta name="twitter:description" content="DVC 養成計算機.">
+    <meta name="twitter:image" content="https://i.imgur.com/19p98ma.png">
+    
+    <title>DVC 個性計算機</title>
+    <link rel="icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="dvccalculator.css">
+    <script src="rawdata.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main-box">
+        <div id="main-content">
+            <div id="header">
+                <h1>DVC 個性計算機</h1>
+                <span id="tooltip"><a href="#tips"><img src="../images/help64.png" width="24"></a></span>
+            </div>
+            
+            <div id="calculations">
+                <div class="grid-container">
+                    <div></div>
+                    <div>
+                        <h3>初始個性素質</h3>
+                    </div>
+                    <div></div>
+                    <div class="grid-item">
+                        <h3>目標個性素質</h3>
+                    </div>
+                    <div>
+                        <div class="agility">爆發力</div>
+                    </div>
+                    <div>
+                        <input type="number" inputmode="numeric" min="0" max="30" value="0" id="start-agility" class="stat-field agility">
+                    </div>
+                    <div>
+                        →
+                    </div>
+                    <div>
+                        <input type="number" inputmode="numeric" min="0" max="999" maxlength="3" value="0" id="end-agility"
+                            class="stat-field agility">
+                    </div>
+                    <div>
+                        <div class="strength">肌力</div>
+                    </div>
+                    <div>
+                        <input type="number" inputmode="numeric" min="0" max="30" value="0" id="start-strength" class="stat-field strength">
+                    </div>
+                    <div>
+                        →
+                    </div>
+                    <div>
+                        <input type="number" inputmode="numeric" min="0" max="999" maxlength="3" value="0" id="end-strength"
+                            class="stat-field strength">
+                    </div>
+                    <div>
+                        <div class="focus">集中力</div>
+                    </div>
+                    <div>
+                        <input type="number" inputmode="numeric" min="0" max="30" value="0" id="start-focus" class="stat-field focus">
+                    </div>
+                    <div>
+                        →
+                    </div>
+                    <div>
+                        <input type="number" inputmode="numeric" min="0" max="999" maxlength="3" value="0" id="end-focus"
+                            class="stat-field focus">
+                    </div>
+                    <div>
+                        <div class="intellect">智力</div>
+                    </div>
+                    <div>
+                        <input type="number" inputmode="numeric" min="0" max="30" value="0" id="start-intellect"
+                            class="stat-field intellect">
+                    </div>
+                    <div>
+                        →
+                    </div>
+                    <div>
+                        <input type="number" inputmode="numeric" min="0" max="999" maxlength="3" value="0" id="end-intellect"
+                            class="stat-field intellect">
+                    </div>
+                </div>
+
+                <div class="grid-container2">
+                    <div class="grid-item">
+                        <h3>所需訓練</h3>
+                    </div>
+                    <div class="grid-item">
+                        <h3>訓練分數及次數</h3>
+                    </div>
+
+                    <div class="grid-item">
+                        <span id="required-agility"></span>
+                        <span class="stat-mobile-view">爆發力</span>
+                    </div>
+                    <div>
+                        <span id="train-count-agility"></span>
+                    </div>
+                    <div>
+                        <span id="required-strength"></span>
+                        <span class="stat-mobile-view">肌力</span>
+                    </div>
+                    <div>
+                        <span id="train-count-strength"></span>
+                    </div>
+                    <div>
+                        <span id="required-focus"></span>
+                        <span class="stat-mobile-view">集中力</span>
+                    </div>
+                    <div>
+                        <span id="train-count-focus"></span>
+                    </div>
+                    <div>
+                        <span id="required-intellect"></span>
+                        <span class="stat-mobile-view">智力</span>
+                    </div>
+                    <div>
+                        <span id="train-count-intellect"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="controls">
+                <div class="sel1">
+                    <h3>選擇龍種:</h3>
+                    <select name="dragon-selector" id="dragon-selector" onchange="selectDragon()">
+                        <option selected disabled>龍</option>
+                    </select>
+                    <select name="trait-selector" id="start-trait-selector" onchange="selectStartTrait()" disabled>
+                        <option selected disabled>初始個性</option>
+                        <option value="" id="trait1">-</option>
+                        <option value="" id="trait2">-</option>
+                    </select>
+                </div>
+
+                <div class="sel2">
+                    <h3>目標訓練個性:</h3>
+                    <select name="trait-selector" id="normal-trait-selector" onchange="selectNormalTrait()">
+                        <option selected disabled>一般個性選擇</option>
+                    </select>
+                    <select name="trait-selector" id="special-trait-selector" onchange="selectSpecialTrait()">
+                        <option selected disabled>特殊個性選擇</option>
+                    </select>
+                </div>
+            </div>
+                    
+            <div class="buttons">
+                <button onclick="calculate()">開始計算</button>
+                <button onclick="reset()">重置訓練個性</button> <br>
+            </div>
+
+            <div id="tips">
+                <h2>[工具指南]</h2>
+                <ol>
+                    <li>從「選擇龍種」選項中選擇「需要訓練的龍」和您的龍的初始個性，或輸入您自己的個性.</li>
+                    <li>從<strong>目標訓練個性</strong>下拉選單中選擇您要創建的個性，或直接輸入個性.</li>
+                    <li>點選<b>開始計算</b>將會顯示達到目標所需的訓練值以及對應的訓練次數.</li>
+                </ol>
+                <ul>
+                    <li>您不需要訓練與計算機輸出一樣多的次數，一般個性的情況下，只需保持比例即可，特殊個性的情況下，只需滿足各個個性的條件即可.</li>
+                    <li>如果相同分數的訓練次數超過 5 次，則將其折疊到括號中. (如: <span class="nine">9</span><sub>(x13)</sub>則進行13次9分訓練)</li>
+                    <li>對於特殊個性，只有那些應計算目標值的個性才會包含在自動輸入清單中. (기품있는, 서투른 등의 성격은 계산이 필요없으니 제외)</li>
+                    <li>Evria 特有的龍不包括在內，因為基值固定為 1、1、1、1.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="version">
+        <p>
+            23-08-08. version 0.0.0<br>
+            23-08-24. version 0.1.0<br>
+            23-08-26. version 0.1.1<br>
+            23-10-17. version 0.1.2<br>
+            DVC Calculator by jbilee@GitHub
+        </p>
+        <p>
+            數據來源:<br>
+            <a href="https://community.withhive.com/dvc/ko/board/22/2929"
+                target="_blank">https://community.withhive.com/dvc/ko/board/22/2929
+                (전체도감 by 앙그라님)</a><br>
+            <a href="https://community.withhive.com/dvc/ko/board/22/9761"
+                target="_blank">https://community.withhive.com/dvc/ko/board/22/9761
+                (일반성격 계산법 by 앙그라님)</a><br>
+            <a href="https://community.withhive.com/dvc/ko/board/22/113031"
+                target="_blank">https://community.withhive.com/dvc/ko/board/22/113031
+                (성격작 정리 by 순대국밥할매님)</a><br>
+        </p>
+        <p>
+            報告錯誤/數據錯誤: <a href="https://open.kakao.com/o/stYLmUCf">오픈카톡</a>
+        </p>
+    </div>
+
+    <script src="calculations.js"></script>
+</body>
+
+</html>
