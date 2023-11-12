@@ -255,7 +255,10 @@ const dragonList = [
     { name: ["White Gold", "白金龍"], traitsEn: ["Bold", "Calm"], traitsKo: ["大膽的", "沉穩的"], Bold: [10, 20, 0, 0], Calm: [15, 0, 30, 15] },
     { name: ["White Thunder Dragon", "白雷龍"], traitsEn: ["Hasty", "Bold"], traitsKo: ["急躁的", "大膽的"], Hasty: [30, 10, 10, 0], Bold: [0, 30, 5, 0] },
     { name: ["Black Dragon", "黑龍"], traitsEn: ["Quiet", "Careful"], traitsKo: ["冷靜的", "慎重的"], Quiet: [0, 5, 20, 5], Careful: [5, 5, 20, 0] },
-    { name: ["Hydragon", "多頭龍"], traitsEn: ["Adamant", "Hasty"], traitsKo: ["固執的", "急躁的"], Adamant: [10, 20, 10, 0], Hasty: [20, 5, 5, 0] }
+    { name: ["Hydragon", "多頭龍"], traitsEn: ["Adamant", "Hasty"], traitsKo: ["固執的", "急躁的"], Adamant: [10, 20, 10, 0], Hasty: [20, 5, 5, 0] },
+    { name: ["Ranky", "段位者"], traitsEn: ["Naive", "Hardy"], traitsKo: ["天真爛漫的", "努力的"], Naive: [20, 0, 5, 5], Hardy: [0, 0, 20, 5] },
+    { name: ["Tutankhagon", "圖坦卡門"], traitsEn: ["traitsKo", "Careful"], traitsKo: ["沉穩的", "慎重的"], Calm: [10, 0, 30, 10], Careful: [10, 10, 30, 0] },
+    { name: ["Sky Lancer", "天空槍兵"], traitsEn: ["Quiet", "Brave"], traitsKo: ["冷靜的", "勇敢的"], Quiet: [0, 10, 20, 10], Brave: [0, 30, 15, 15] }
 ];
 
 const specialTraits = [
