@@ -1,5 +1,5 @@
 const dragonList = [
-    { name: ["Caretaker God Dragon", "照護者古代神龍"], traitsEn: ["Bold", "Calm"], traitsKo: ["溫和的", "目前未知"], Docile: [0, 10, 10, 30], Calm: [0, 0, 0, 0] },
+    { name: ["Caretaker God Dragon", "照護者古代神龍"], traitsEn: ["Docile", "Calm"], traitsKo: ["溫和的", "目前未知"], Docile: [0, 10, 10, 30], Calm: [1, 1, 1, 1] },
     { name: ["Gaian", "蓋安"], traitsEn: ["Bold", "Calm"], traitsKo: ["大膽的", "沉穩的"], Bold: [0, 30, 10, 0], Calm: [5, 0, 20, 5] },
     { name: ["Gautling-Gon", "格林"], traitsEn: ["Quiet", "Bold"], traitsKo: ["冷靜的", "大膽的"], Quiet: [0, 5, 20, 5], Bold: [0, 20, 0, 10] },
     { name: ["Girdletail Dragon", "鎧蜥龍"], traitsEn: ["Bold", "Rash"], traitsKo: ["大膽的", "莽撞的"], Bold: [10, 30, 0, 0], Rash: [25, 10, 0, 10] },
