@@ -15,9 +15,9 @@ const dragonList = [
 
     { name: ["divider", "🎨 自創龍 🎨"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Voodoo Dragon", "巫毒龍"], traitsEn: ["Quirky", "unknown"], traitsKo: ["反覆無常的(素質尚未確認)", "目前未知)"], Quirky: [0, 1, 0, 0], unknown: [1, 1, 1, 1] },
-    { name: ["Frame", "相框龍"], traitsEn: ["Hardy", "unknown"], traitsKo: ["努力的(素質尚未確認)", "目前未知"], Hardy: [0, 1, 20, 0], unknown: [1, 1, 1, 1] },
-    { name: ["Gorgon", "戈爾貢"], traitsEn: ["Calm", "quickWitted"], traitsKo: ["沉穩的", "眼尖的(素質尚未確認)"], Calm: [10, 0, 20, 10], quickWitted: [1, 1, 1, 1] },
-    { name: ["Pancake Dragon", "鬆餅龍"], traitsEn: ["Docile", "unknown"], traitsKo: ["溫和的", "目前未知"], Docile: [0, 10, 10, 25], unknown: [1, 1, 1, 1] },
+    { name: ["Frame", "相框龍"], traitsEn: ["Hardy", "Docile"], traitsKo: ["努力的(素質尚未確認)", "溫和的"], Hardy: [0, 1, 20, 0], Docile: [0, 10, 10, 30] },
+    { name: ["Gorgon", "戈爾貢"], traitsEn: ["Calm", "quickWitted"], traitsKo: ["沉穩的", "眼尖的"], Calm: [10, 0, 20, 10], quickWitted: [20, 0, 0, 5] },
+    { name: ["Pancake Dragon", "鬆餅龍"], traitsEn: ["Docile", "unknown"], traitsKo: ["溫和的", "天真爛漫的(素質尚未確認)"], Docile: [0, 10, 10, 25], Naive: [30, 0, 1, 1] },
 
     { name: ["divider", "💎 本月龍 💎"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Ranky", "段位者"], traitsEn: ["Naive", "Hardy"], traitsKo: ["天真爛漫的", "努力的"], Naive: [20, 0, 5, 5], Hardy: [0, 0, 20, 5] },
