@@ -18,7 +18,7 @@ const dragonList = [
     { name: ["Frame", "相框龍"], traitsEn: ["Hardy", "Docile"], traitsKo: ["努力的", "溫和的"], Hardy: [0, 10, 20, 0], Docile: [0, 10, 10, 30] },
     { name: ["Gorgon", "戈爾貢"], traitsEn: ["Calm", "quickWitted"], traitsKo: ["沉穩的", "眼尖的"], Calm: [10, 0, 20, 10], quickWitted: [20, 0, 0, 5] },
     { name: ["Pancake Dragon", "鬆餅龍"], traitsEn: ["Docile", "Naive"], traitsKo: ["溫和的", "天真爛漫的"], Docile: [0, 10, 10, 25], Naive: [30, 0, 10, 10] },
-    { name: ["Maple Dragon", "楓葉龍"], traitsEn: ["Naive", "unknown"], traitsKo: ["天真爛漫的", "目前未知"], Naive: [20, 0, 5, 5], unknown: [1, 1, 1, 1] },
+    { name: ["Maple Dragon", "楓龍"], traitsEn: ["Naive", "unknown"], traitsKo: ["天真爛漫的", "目前未知"], Naive: [20, 0, 5, 5], unknown: [1, 1, 1, 1] },
 
     { name: ["divider", "💎 本月龍 💎"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Ranky", "段位者"], traitsEn: ["Naive", "Hardy"], traitsKo: ["天真爛漫的", "努力的"], Naive: [20, 0, 5, 5], Hardy: [0, 0, 20, 5] },
@@ -184,7 +184,7 @@ const dragonList = [
     { name: ["Hercules Dragon", "大力士龍"], traitsEn: ["Adamant", "Bold"], traitsKo: ["固執的", "大膽的"], Adamant: [10, 20, 10, 0], Bold: [0, 30, 0, 5] },
     { name: ["Baekho", "白虎"], traitsEn: ["Brave", "Docile"], traitsKo: ["勇敢的", "溫和的"], Brave: [0, 20, 5, 5], Docile: [0, 15, 15, 30] },
     { name: ["Sharp Tail", "尖尾龍"], traitsEn: ["Naive", "Quirky"], traitsKo: ["天真爛漫的", "反覆無常的"], Naive: [20, 0, 5, 5], Quirky: [10, 30, 0, 10] },
-    { name: ["Lichmond", "巫妖"], traitsEn: ["Hardy", "Quirky"], traitsKo: ["努力的", "反覆無常的"], Hardy: [0, 0, 20, 10], Quirky: [10, 20, 0, 10] },
+    { name: ["Lichmond", "里奇蒙特"], traitsEn: ["Hardy", "Quirky"], traitsKo: ["努力的", "反覆無常的"], Hardy: [0, 0, 20, 10], Quirky: [10, 20, 0, 10] },
     { name: ["Demong & Gargoyle", "鬼怪和石像鬼"], traitsEn: ["quickWitted", "Adamant"], traitsKo: ["眼尖的", "固執的"], quickWitted: [30, 0, 5, 0], Adamant: [10, 30, 10, 0] },
     { name: ["Eelos", "伊洛斯"], traitsEn: ["Lax", "Naive"], traitsKo: ["調皮的", "天真爛漫的"], Lax: [10, 10, 0, 30], Naive: [30, 0, 10, 10] },
     { name: ["Blue Firetail", "青火尾"], traitsEn: ["quickWitted", "Quirky"], traitsKo: ["眼尖的", "反覆無常的"], quickWitted: [20, 0, 0, 5], Quirky: [10, 25, 0, 10] },
