@@ -6,21 +6,19 @@ const dragonList = [
     { name: ["Crested Dragon", "守宮"], traitsEn: ["Lax", "quickWitted"], traitsKo: ["調皮的", "眼尖的"], Lax: [5, 5, 0, 20], quickWitted: [20, 5, 0, 0] },
     { name: ["Egg Dragon", "蛋龍"], traitsEn: ["Adamant", "Docile"], traitsKo: ["固執的", "溫和的"], Adamant: [10, 25, 10, 0], Docile: [0, 5, 5, 20] },
     { name: ["Girdletail Dragon", "鎧蜥龍"], traitsEn: ["Bold", "Rash"], traitsKo: ["大膽的", "莽撞的"], Bold: [10, 30, 0, 0], Rash: [25, 10, 0, 10] },
-    { name: ["Sky Lancer", "天空槍兵"], traitsEn: ["Quiet", "Brave"], traitsKo: ["冷靜的", "勇敢的"], Quiet: [0, 10, 20, 10], Brave: [0, 30, 15, 15] },
-    { name: ["divider", "🎉 當前活動 🎉"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
-    { name: ["Caretaker God Dragon", "照護者古代神龍"], traitsEn: ["Docile", "unknown"], traitsKo: ["溫和的", "目前未知"], Docile: [0, 10, 10, 30], unknown: [1, 1, 1, 1] },
-    { name: ["God Dragon", "古代神龍"], traitsEn: ["Brave", "Docile"], traitsKo: ["勇敢的", "溫和的"], Brave: [0, 25, 10, 10], Docile: [0, 10, 10, 30] },
-    { name: ["Shark Dragon", "鯊龍"], traitsEn: ["Quiet", "Rash"], traitsKo: ["冷靜的", "莽撞的"], Quiet: [0, 5, 20, 5], Rash: [20, 10, 0, 10] },
-    { name: ["Mushroom Dragon", "菇龍"], traitsEn: ["Calm", "Docile"], traitsKo: ["沉穩的", "溫和的"], Calm: [10, 0, 25, 10], Docile: [0, 10, 10, 20] },
 
-    { name: ["divider", "🎨 自創龍 🎨"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
-    { name: ["Voodoo Dragon", "巫毒龍"], traitsEn: ["Quirky", "unknown"], traitsKo: ["反覆無常的(素質尚未確認)", "目前未知)"], Quirky: [0, 1, 0, 0], unknown: [1, 1, 1, 1] },
+    { name: ["divider", "🎉 當前活動 🎉"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Clavis", "克拉薇思"], traitsEn: ["Adamant", "Quirky"], traitsKo: ["固執的", "反覆無常的"], Adamant: [10, 20, 10, 0], Quirky: [10, 25, 0, 10] },
+
+    { name: ["divider", "🎨 創作龍 🎨"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Voodoo Dragon", "巫毒龍"], traitsEn: ["Quirky", "quickWitted"], traitsKo: ["反覆無常的", "眼尖的"], Quirky: [10, 20, 0, 10], quickWitted: [20, 0, 10, 10] },
     { name: ["Frame", "相框龍"], traitsEn: ["Hardy", "Docile"], traitsKo: ["努力的", "溫和的"], Hardy: [0, 10, 20, 0], Docile: [0, 10, 10, 30] },
     { name: ["Gorgon", "戈爾貢"], traitsEn: ["Calm", "quickWitted"], traitsKo: ["沉穩的", "眼尖的"], Calm: [10, 0, 20, 10], quickWitted: [20, 0, 0, 5] },
     { name: ["Pancake Dragon", "鬆餅龍"], traitsEn: ["Docile", "Naive"], traitsKo: ["溫和的", "天真爛漫的"], Docile: [0, 10, 10, 25], Naive: [30, 0, 10, 10] },
     { name: ["Maple Dragon", "楓龍"], traitsEn: ["Naive", "unknown"], traitsKo: ["天真爛漫的", "目前未知"], Naive: [20, 0, 5, 5], unknown: [1, 1, 1, 1] },
 
     { name: ["divider", "💎 本月龍 💎"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Clavis", "克拉薇思"], traitsEn: ["Adamant", "Quirky"], traitsKo: ["固執的", "反覆無常的"], Adamant: [10, 20, 10, 0], Quirky: [10, 25, 0, 10] },
     { name: ["Ranky", "段位者"], traitsEn: ["Naive", "Hardy"], traitsKo: ["天真爛漫的", "努力的"], Naive: [20, 0, 5, 5], Hardy: [0, 0, 20, 5] },
     { name: ["Lumindis", "魯銘迪斯"], traitsEn: ["Bold", "Quiet"], traitsKo: ["大膽的", "冷靜的"], Bold: [5, 20, 0, 0], Quiet: [0, 10, 30, 10] },
     { name: ["Plumos", "梅龍"], traitsEn: ["Hardy", "Calm"], traitsKo: ["努力的", "沉穩的"], Hardy: [0, 0, 20, 5], Calm: [10, 0, 25, 10] },
@@ -38,7 +36,7 @@ const dragonList = [
     { name: ["Eshu", "艾舒"], traitsEn: ["Quirky", "Naive"], traitsKo: ["反覆無常的", "天真爛漫的"], Quirky: [10, 25, 0, 10], Naive: [30, 0, 15, 15] },
     { name: ["Zombie Dragon", "殭屍"], traitsEn: ["Hasty", "Rash"], traitsKo: ["急躁的", "莽撞的"], Hasty: [20, 5, 5, 0], Rash: [25, 10, 0, 10] },
     { name: ["Bearded Dragon", "鬃獅蜥龍"], traitsEn: ["Bold", "Smart"], traitsKo: ["大膽的", "聰明的"], Bold: [0, 30, 0, 10], Smart: [0, 10, 0, 30] },
-    { name: ["Caretaker God Dragon", "照護者古代神龍"], traitsEn: ["Docile", "unknown"], traitsKo: ["溫和的", "目前未知"], Docile: [0, 10, 10, 30], unknown: [1, 1, 1, 1] },
+    { name: ["Caretaker God Dragon", "照護者古代神龍"], traitsEn: ["Docile", "Brave"], traitsKo: ["溫和的", "勇敢的"], Docile: [0, 10, 10, 30], Brave: [0, 25, 10, 10] },
 
     { name: ["divider", "🎟️ 一代序號 🎟️"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Porta", "普爾塔"], traitsEn: ["Calm", "Brave"], traitsKo: ["沉穩的", "勇敢的"], Calm: [10, 0, 25, 10], Brave: [0, 30, 10, 10] },
@@ -56,6 +54,14 @@ const dragonList = [
     { name: ["Rude Ore", "原礦龍"], traitsEn: ["Calm", "Quiet"], traitsKo: ["沉穩的", "冷靜的"], Calm: [15, 0, 30, 15], Quiet: [0, 15, 30, 15] },
 
     { name: ["divider", "🪐 艾弗利亞 🌌"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Golden Poison River", "金黃毒流"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Forbidden Witch Dragon", "禁忌女巫龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Blue Bird Berris", "青鳥貝里斯"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Pure Evil Non", "純粹邪惡虛無"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Pure White Fides", "純白菲達斯"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Nightmare Lucio", "惡夢盧西歐"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Remorseful Florea", "憐憫芙蘿蕾"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Dreamer Obex", "夢想家歐沛克斯"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Dark God Dragon", "黑暗古代神龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Dark Angel Dragon", "黑暗天使龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Dark Lightning Dragon", "黑暗閃電古龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
@@ -216,6 +222,15 @@ const dragonList = [
     { name: ["Hallow", "聖徒"], traitsEn: ["Quiet", "Calm"], traitsKo: ["冷靜的", "沉穩的"], Quiet: [0, 10, 20, 10], Calm: [10, 0, 25, 10] },
     { name: ["Haetae", "獬豸"], traitsEn: ["Brave", "Bold"], traitsKo: ["勇敢的", "大膽的"], Brave: [0, 20, 5, 5], Bold: [0, 20, 10, 0] },
     { name: ["Devilgon", "魔鬼龍"], traitsEn: ["Quiet", "Adamant"], traitsKo: ["冷靜的", "固執的"], Quiet: [0, 10, 20, 10], Adamant: [10, 25, 10, 0] },
+    { name: ["Voodoo Dragon", "巫毒龍"], traitsEn: ["Quirky", "quickWitted"], traitsKo: ["反覆無常的", "眼尖的"], Quirky: [10, 20, 0, 10], quickWitted: [20, 0, 10, 10] },
+    { name: ["Frame", "相框龍"], traitsEn: ["Hardy", "Docile"], traitsKo: ["努力的", "溫和的"], Hardy: [0, 10, 20, 0], Docile: [0, 10, 10, 30] },
+    { name: ["Gorgon", "戈爾貢"], traitsEn: ["Calm", "quickWitted"], traitsKo: ["沉穩的", "眼尖的"], Calm: [10, 0, 20, 10], quickWitted: [20, 0, 0, 5] },
+    { name: ["Pancake Dragon", "鬆餅龍"], traitsEn: ["Docile", "Naive"], traitsKo: ["溫和的", "天真爛漫的"], Docile: [0, 10, 10, 25], Naive: [30, 0, 10, 10] },
+
+    { name: ["divider", "☄️ 混沌之隙 ☄️"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Griffar", "格利法"], traitsEn: ["Quiet", "Bold"], traitsKo: ["冷靜的", "大膽的"], Quiet: [0, 10, 30, 10], Bold: [0, 30, 5, 0] },
+    { name: ["Valefor", "華利弗"], traitsEn: ["Adamant", "Quirky"], traitsKo: ["固執的", "反覆無常的"], Adamant: [10, 25, 10, 0], Quirky: [10, 30, 0, 10] },
+    { name: ["Sealed Darknix", "封印的黑暗尼斯"], traitsEn: ["Hasty", "unknown"], traitsKo: ["急躁的", "目前未知"], Hasty: [30, 15, 15 , 0], unknown: [1, 1, 1, 1] },
 
     { name: ["divider", "🕔 05月限定 🕔"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Smart Dragon", "智龍"], traitsEn: ["Smart", "Docile"], traitsKo: ["聰明的", "溫和的"], Smart: [0, 10, 0, 20], Docile: [0, 5, 5, 20] },
@@ -245,6 +260,10 @@ const dragonList = [
     { name: ["Demonio", "戴莫尼奧"], traitsEn: ["Quiet", "Docile"], traitsKo: ["冷靜的", "溫和的"], Quiet: [0, 10, 20, 10], Docile: [0, 0, 0, 30] },
     { name: ["Ges", "晶翅"], traitsEn: ["Brave", "Smart"], traitsKo: ["勇敢的", "聰明的"], Brave: [0, 20, 5, 5], Smart: [10, 0, 0, 20] },
     { name: ["Gigantis", "巨龍靈"], traitsEn: ["Quiet", "Adamant"], traitsKo: ["冷靜的", "固執的"], Quiet: [0, 15, 30, 15], Adamant: [15, 30, 15, 0] },
+    { name: ["divider", "🕚 12月限定 🕚"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Yurion", "尤璃安"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [0, 10, 20, 10], unknown: [0, 0, 0, 30] },
+    { name: ["Tilki", "蒂爾基"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [0, 20, 5, 5], unknown: [10, 0, 0, 20] },
+    { name: ["Harika", "哈利卡"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [0, 15, 30, 15], unknown: [15, 30, 15, 0] },
 
     { name: ["divider", "💕 配種龍 💕"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Girdletail Dragon", "鎧蜥龍"], traitsEn: ["Bold", "Rash"], traitsKo: ["大膽的", "莽撞的"], Bold: [10, 30, 0, 0], Rash: [25, 10, 0, 10] },
@@ -309,6 +328,8 @@ const dragonList = [
     { name: ["Bonehead", "骷髏龍"], traitsEn: ["Quirky", "Bashful"], traitsKo: ["反覆無常的", "害羞的"], Quirky: [5, 20, 0, 5], Bashful: [15, 0, 15, 30] },
     { name: ["Catsgon", "貓龍"], traitsEn: ["quickWitted", "Quirky"], traitsKo: ["眼尖的", "反覆無常的"], quickWitted: [30, 10, 0, 0], Quirky: [10, 20, 0, 10] },
     { name: ["Haze", "霧霾龍"], traitsEn: ["Calm", "quickWitted"], traitsKo: ["沉穩的", "眼尖的"], Calm: [10, 0, 20, 10], quickWitted: [30, 10, 0, 0] },
+    { name: ["Maple Dragon", "楓龍"], traitsEn: ["Naive", "unknown"], traitsKo: ["天真爛漫的", "目前未知"], Naive: [20, 0, 5, 5], unknown: [1, 1, 1, 1] },
+
 
     { name: ["divider", "🎲 其他 🎲"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Light Darknix", "光明黑暗尼斯龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
@@ -328,13 +349,13 @@ const dragonList = [
     { name: ["White Dragon", "白龍"], traitsEn: ["Smart", "Docile"], traitsKo: ["聰明的", "溫和的"], Smart: [0, 10, 0, 30], Docile: [0, 5, 5, 20] },
     { name: ["Black Dragon", "黑龍"], traitsEn: ["Quiet", "Careful"], traitsKo: ["冷靜的", "慎重的"], Quiet: [0, 5, 20, 5], Careful: [5, 5, 20, 0] },
     { name: ["Tutankhagon", "圖坦卡門"], traitsEn: ["traitsKo", "Careful"], traitsKo: ["沉穩的", "慎重的"], Calm: [10, 0, 30, 10], Careful: [10, 10, 30, 0] },
+    { name: ["Pharaogon", "法老"], traitsEn: ["unknown", "unknown"], traitsKo: ["冷靜的", "慎重的"], Quiet: [0, 10, 30, 10], Careful: [10, 10, 30, 0] },
     { name: ["Shadow", "影龍"], traitsEn: ["quickWitted", "Calm"], traitsKo: ["眼尖的", "沉穩的"], quickWitted: [20, 0, 0, 5], Calm: [5, 0, 20, 5] },
     { name: ["Glaone", "格羅歐奈"], traitsEn: ["Smart", "Brave"], traitsKo: ["聰明的", "勇敢的"], Smart: [0, 5, 0, 20], Brave: [0, 25, 10, 10] },
     { name: ["Lakion", "洛基溫"], traitsEn: ["Quirky", "Careful"], traitsKo: ["反覆無常的", "慎重的"], Quirky: [10, 25, 0, 10], Careful: [10, 10, 20, 0] },
 
     { name: ["divider", "❌ 尚未開放 ❌"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
-    { name: ["White Applecheek", "白蘋果肌龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
-    { name: ["Pharaogon", "法老"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] }
+    { name: ["White Applecheek", "白蘋果肌龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] }
 
 
 
