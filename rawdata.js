@@ -356,69 +356,37 @@ const dragonList = [
 
     { name: ["divider", "❌ 尚未開放 ❌"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["White Applecheek", "白蘋果肌龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] }
-
-
-
-
 ];
 
 const specialTraits = [
-    { nameEn: "Classy", nameZh: "有格調的(3代內純種4屬過20)", stats: [20, 20, 20, 20] },
-    { nameEn: "Noble", nameZh: "高貴的(5代內純種4屬過20)", stats: [20, 20, 20, 20] },
-    { nameEn: "Arrogant", nameZh: "傲慢的(觀看200)", stats: [25, 25, 25, 25] },
-    { nameEn: "Perfectionist", nameZh: "完美主義者", stats: [20, 20, 20, 20] },
-    { nameEn: "Meticulous", nameZh: "一絲不苟的", stats: [0, 0, 0, 0] },
-    { nameEn: "Capable", nameZh: "有能力的", stats: [28, 28, 28, 28] },
-    { nameEn: "Immersed", nameZh: "專注的", stats: [0, 0, 0, 0] },
-    { nameEn: "Dull", nameZh: "平凡的", stats: [20, 20, 20, 20] },
-    // { nameEn: "ElegantTraining", nameZh: "氣度不凡的", stats: [17, 17, 17, 17] },
-    // { nameEn: "Clumsy", nameZh: "笨拙的", stats: [0, 0, 0, 0] },
-    // { nameEn: "Distracted", nameZh: "漫不經心的", stats: [0, 0, 0, 0] }
+    { nameEn: "Classy", nameKo: "有格調的(3代內純種4屬過20)", stats: [20, 20, 20, 20] },
+    { nameEn: "Noble", nameKo: "高貴的(5代內純種4屬過20)", stats: [20, 20, 20, 20] },
+    { nameEn: "Arrogant", nameKo: "傲慢的(觀看200)", stats: [25, 25, 25, 25] },
+    { nameEn: "Distracted", nameKo: "漫不經心的", stats: [0, 0, 0, 0] },
+    { nameEn: "Perfectionist", nameKo: "完美主義者", stats: [20, 20, 20, 20] },
+    { nameEn: "Meticulous", nameKo: "一絲不苟的", stats: [0, 0, 0, 0] },
+    { nameEn: "Capable", nameKo: "有能力的", stats: [28, 28, 28, 28] },
+    { nameEn: "Immersed", nameKo: "專注的", stats: [0, 0, 0, 0] },
+    { nameEn: "Dull", nameKo: "平凡的", stats: [20, 20, 20, 20] }
 ];
 
 
 const normalTraits = [
-    { nameEn: "Naive", nameZh: "天真爛漫的", highestTrait: "agility", lowestTrait: "strength" },
-    { nameEn: "Rash", nameZh: "莽撞的", highestTrait: "agility", lowestTrait: "focus" },
-    { nameEn: "Hasty", nameZh: "急躁的", highestTrait: "agility", lowestTrait: "intellect" },
-    { nameEn: "quickWitted", nameZh: "眼尖的", highestTrait: "agility", lowestTrait: "none" },
-    { nameEn: "Brave", nameZh: "勇敢的", highestTrait: "strength", lowestTrait: "agility" },
-    { nameEn: "Quirky", nameZh: "反覆無常的", highestTrait: "strength", lowestTrait: "focus" },
-    { nameEn: "Adamant", nameZh: "固執的", highestTrait: "strength", lowestTrait: "intellect" },
-    { nameEn: "Bold", nameZh: "大膽的", highestTrait: "strength", lowestTrait: "none" },
-    { nameEn: "Quiet", nameZh: "冷靜的", highestTrait: "focus", lowestTrait: "agility" },
-    { nameEn: "Calm", nameZh: "沉穩的", highestTrait: "focus", lowestTrait: "strength" },
-    { nameEn: "Careful", nameZh: "慎重的", highestTrait: "focus", lowestTrait: "intellect" },
-    { nameEn: "Hardy", nameZh: "努力的", highestTrait: "focus", lowestTrait: "none" },
-    { nameEn: "Docile", nameZh: "溫和的", highestTrait: "intellect", lowestTrait: "agility" },
-    { nameEn: "Bashful", nameZh: "害羞的", highestTrait: "intellect", lowestTrait: "strength" },
-    { nameEn: "Lax", nameZh: "調皮的", highestTrait: "intellect", lowestTrait: "focus" },
-    { nameEn: "Smart", nameZh: "聰明的", highestTrait: "intellect", lowestTrait: "none" },
-    { nameEn: "unknown", nameZh: "目前未知", highestTrait: "none", lowestTrait: "none" }
+    { nameEn: "Naive", nameKo: "天真爛漫的", highestTrait: "agility", lowestTrait: "strength" },
+    { nameEn: "Rash", nameKo: "莽撞的", highestTrait: "agility", lowestTrait: "focus" },
+    { nameEn: "Hasty", nameKo: "急躁的", highestTrait: "agility", lowestTrait: "intellect" },
+    { nameEn: "quickWitted", nameKo: "眼尖的", highestTrait: "agility", lowestTrait: "none" },
+    { nameEn: "Brave", nameKo: "勇敢的", highestTrait: "strength", lowestTrait: "agility" },
+    { nameEn: "Quirky", nameKo: "反覆無常的", highestTrait: "strength", lowestTrait: "focus" },
+    { nameEn: "Adamant", nameKo: "固執的", highestTrait: "strength", lowestTrait: "intellect" },
+    { nameEn: "Bold", nameKo: "大膽的", highestTrait: "strength", lowestTrait: "none" },
+    { nameEn: "Quiet", nameKo: "冷靜的", highestTrait: "focus", lowestTrait: "agility" },
+    { nameEn: "Calm", nameKo: "沉穩的", highestTrait: "focus", lowestTrait: "strength" },
+    { nameEn: "Careful", nameKo: "慎重的", highestTrait: "focus", lowestTrait: "intellect" },
+    { nameEn: "Hardy", nameKo: "努力的", highestTrait: "focus", lowestTrait: "none" },
+    { nameEn: "Docile", nameKo: "溫和的", highestTrait: "intellect", lowestTrait: "agility" },
+    { nameEn: "Bashful", nameKo: "害羞的", highestTrait: "intellect", lowestTrait: "strength" },
+    { nameEn: "Lax", nameKo: "調皮的", highestTrait: "intellect", lowestTrait: "focus" },
+    { nameEn: "Smart", nameKo: "聰明的", highestTrait: "intellect", lowestTrait: "none" },
+    { nameEn: "unknown", nameKo: "目前未知", highestTrait: "none", lowestTrait: "none" }
 ];
-
-const statList = ["agility", "strength", "focus", "intellect"];
-
-document.addEventListener("DOMContentLoaded", function () {
-    for (let i = 0; i < dragonList.length; i++) {
-        let newOption = document.createElement("option");
-        newOption.setAttribute("value", dragonList[i].name[0]);
-        newOption.textContent = dragonList[i].name[1];
-        document.querySelector("#dragon-selector").append(newOption);
-    }
-
-    for (let i = 0; i < normalTraits.length; i++) {
-        let newOption = document.createElement("option");
-        newOption.setAttribute("value", normalTraits[i].nameEn);
-        newOption.textContent = normalTraits[i].nameZh;
-        document.querySelector("#normal-trait-selector").append(newOption);
-    }
-
-    for (let i = 0; i < specialTraits.length; i++) {
-        let newOption = document.createElement("option");
-        newOption.setAttribute("value", specialTraits[i].nameEn);
-        if (newOption.value == "Dull") newOption.setAttribute("id", specialTraits[i].nameEn);
-        newOption.textContent = specialTraits[i].nameZh;
-        document.querySelector("#special-trait-selector").append(newOption);
-    }
-});

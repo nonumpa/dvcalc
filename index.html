@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-TW">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <meta property="og:image" content="https://i.imgur.com/19p98ma.png">
     <meta property="og:description" content="DragonVillageCollection個性養成計算機.">
     <meta property="og:site_name" content="DragonVillageCollection個性養成計算機">
-    <meta property="og:locale" content="zh-Hant-TW">
+    <meta property="og:locale" content="ko_KR">
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="DragonVillageCollection個性養成計算機">
@@ -23,6 +23,31 @@
     <link rel="icon" href="../images/favicon.png">
     <link rel="stylesheet" href="dvccalculator.css">
     <script src="rawdata.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            for (let i = 0; i < dragonList.length; i++) {
+                const newOption = document.createElement("option");
+                newOption.setAttribute("value", dragonList[i].name[0]);
+                newOption.textContent = dragonList[i].name[1];
+                document.querySelector("#dragon-selector").append(newOption);
+            }
+
+            for (let i = 0; i < normalTraits.length; i++) {
+                const newOption = document.createElement("option");
+                newOption.setAttribute("value", normalTraits[i].nameEn);
+                newOption.textContent = normalTraits[i].nameKo;
+                document.querySelector("#normal-trait-selector").append(newOption);
+            }
+
+            for (let i = 0; i < specialTraits.length; i++) {
+                const newOption = document.createElement("option");
+                newOption.setAttribute("value", specialTraits[i].nameEn);
+                if (newOption.value == "Dull") newOption.setAttribute("id", specialTraits[i].nameEn);
+                newOption.textContent = specialTraits[i].nameKo;
+                document.querySelector("#special-trait-selector").append(newOption);
+            }
+        });
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
@@ -146,7 +171,7 @@
                     <select name="dragon-selector" id="dragon-selector" onchange="selectDragon()">
                         <option selected disabled>龍</option>
                     </select>
-                    <select name="trait-selector" id="start-trait-selector" onchange="selectStartTrait()" disabled>
+                    <select name="trait-selector" id="start-trait-selector" onchange="selectStartTrait(event)" disabled>
                         <option selected disabled>初始個性</option>
                         <option value="" id="trait1">-</option>
                         <option value="" id="trait2">-</option>
@@ -155,10 +180,10 @@
 
                 <div class="sel2">
                     <h3>目標訓練個性:</h3>
-                    <select name="trait-selector" id="normal-trait-selector" onchange="selectNormalTrait()">
+                    <select name="trait-selector" id="normal-trait-selector" onchange="selectNormalTrait(event)">
                         <option selected disabled>一般個性選擇</option>
                     </select>
-                    <select name="trait-selector" id="special-trait-selector" onchange="selectSpecialTrait()">
+                    <select name="trait-selector" id="special-trait-selector" onchange="selectSpecialTrait(event)">
                         <option selected disabled>特殊個性選擇</option>
                     </select>
                 </div>
@@ -166,8 +191,7 @@
                     
             <div class="buttons">
                 <button onclick="calculate()">開始計算</button>
-                <button onclick="reset()">重置訓練個性</button>
-                 <br>
+                <button onclick="reset()">重置訓練個性</button> <br>
             </div>
 
             <div id="tips">
@@ -197,6 +221,7 @@
             23-08-24. version 0.1.0<br>
             23-08-26. version 0.1.1<br>
             23-10-17. version 0.1.2<br>
+            23-12-01. version 0.1.3<br>
             DVC Calculator by jbilee@GitHub
         </p>
         <p>
