@@ -263,7 +263,7 @@ const dragonList = [
     { name: ["divider", "🕚 12月限定 🕚"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Yurion", "尤璃安"], traitsEn: ["Smart", "Docile"], traitsKo: ["聰明的", "溫和的"], Smart: [0, 0, 5, 30], Docile: [0, 10, 10, 20] },
     { name: ["Tilki", "蒂爾基"], traitsEn: ["Naive", "Docile"], traitsKo: ["天真爛漫的", "溫和的"], Naive: [30, 0, 15, 15], Docile: [0, 15, 15, 30] },
-    { name: ["Harika", "哈利卡"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [0, 0, 0, 0], unknown: [0, 0, 0, 0] },
+    { name: ["Harika", "哈利卡"], traitsEn: ["Brave", "Naive"], traitsKo: ["勇敢的", "天真爛漫的"], Brave: [0, 30, 15, 15], Naive: [20, 0, 10, 10] },
 
     { name: ["divider", "💕 配種龍 💕"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Girdletail Dragon", "鎧蜥龍"], traitsEn: ["Bold", "Rash"], traitsKo: ["大膽的", "莽撞的"], Bold: [10, 30, 0, 0], Rash: [25, 10, 0, 10] },
