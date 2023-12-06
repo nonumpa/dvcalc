@@ -9,6 +9,7 @@ const dragonList = [
 
     { name: ["divider", "🎉 當前活動 🎉"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Clavis", "克拉薇思"], traitsEn: ["Adamant", "Quirky"], traitsKo: ["固執的", "反覆無常的"], Adamant: [10, 20, 10, 0], Quirky: [10, 25, 0, 10] },
+    { name: ["Lattegon", "拿鐵龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [0, 0, 0, 0], unknown: [0, 0, 0, 0] },
 
     { name: ["divider", "🎨 創作龍 🎨"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Voodoo Dragon", "巫毒龍"], traitsEn: ["Quirky", "quickWitted"], traitsKo: ["反覆無常的", "眼尖的"], Quirky: [10, 20, 0, 10], quickWitted: [20, 0, 10, 10] },
@@ -83,6 +84,13 @@ const dragonList = [
     { name: ["Lucio", "盧西歐"], traitsEn: ["quickWitted", "Quiet"], traitsKo: ["眼尖的", "冷靜的"], quickWitted: [30, 5, 0, 0], Quiet: [0, 15, 30, 15] },
     { name: ["Obex", "歐沛克斯"], traitsEn: ["Careful", "Quirky"], traitsKo: ["慎重的", "反覆無常的"], Careful: [15, 15, 30, 0], Quirky: [15, 30, 0, 15] },
     { name: ["Non", "虛無"], traitsEn: ["quickWitted", "Quiet"], traitsKo: ["眼尖的", "冷靜的"], quickWitted: [30, 10, 0, 0], Quiet: [0, 15, 30, 15] },
+
+    { name: ["divider", "🦒 天之四靈 🦒"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
+    { name: ["Jujak", "朱雀"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [0, 0, 0, 0], unknown: [0, 0, 0, 0] },
+    { name: ["Hyeonmu", "玄武"], traitsEn: ["Brave", "Bold"], traitsKo: ["勇敢的", "大膽的"], Brave: [0, 20, 5, 5], Bold: [0, 30, 0, 10] },
+    { name: ["Blue Dragon", "青龍"], traitsEn: ["Docile", "Rash"], traitsKo: ["溫和的", "莽撞的"], Docile: [0, 5, 5, 20], Rash: [20, 10, 0, 10] },
+    { name: ["Baekho", "白虎"], traitsEn: ["Brave", "Docile"], traitsKo: ["勇敢的", "溫和的"], Brave: [0, 20, 5, 5], Docile: [0, 15, 15, 30] },
+    { name: ["Kirin", "麒麟"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [0, 0, 0, 0], unknown: [0, 0, 0, 0] },
 
     { name: ["divider", "🔥 東尤塔勘 💧"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Pierrot Dragon", "小丑"], traitsEn: ["Lax", "Smart"], traitsKo: ["調皮的", "聰明的"], Lax: [10, 10, 0, 30], Smart: [0, 0, 5, 20] },
