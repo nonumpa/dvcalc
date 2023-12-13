@@ -15,6 +15,8 @@ const dragonList = [
     { name: ["divider", "🎉 當前活動 🎉"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Clavis", "克拉薇思"], traitsEn: ["Adamant", "Quirky"], traitsKo: ["固執的", "反覆無常的"], Adamant: [10, 20, 10, 0], Quirky: [10, 25, 0, 10] },
     { name: ["Lattegon", "拿鐵龍"], traitsEn: ["Docile", "Smart"], traitsKo: ["溫和的", "聰明的"], Docile: [0, 10, 10, 30], Smart: [5, 0, 0, 30] },
+    { name: ["Christmas Dragon", "聖誕龍"], traitsEn: ["Naive", "Docile"], traitsKo: ["天真爛漫的", "溫和的"], Naive: [30, 0, 15, 15], Docile: [0, 15, 15, 30] },
+    { name: ["Jango", "強格"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], Docile: [0, 10, 10, 30], Smart: [5, 0, 0, 30] },
 
     { name: ["divider", "🎨 創作龍 🎨"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Voodoo Dragon", "巫毒龍"], traitsEn: ["Quirky", "quickWitted"], traitsKo: ["反覆無常的", "眼尖的"], Quirky: [10, 20, 0, 10], quickWitted: [20, 0, 10, 10] },
