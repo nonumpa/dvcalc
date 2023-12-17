@@ -17,7 +17,7 @@ const dragonList = [
     { name: ["Clavis", "克拉薇思"], traitsEn: ["Adamant", "Quirky"], traitsKo: ["固執的", "反覆無常的"], Adamant: [10, 20, 10, 0], Quirky: [10, 25, 0, 10] },
     { name: ["Lattegon", "拿鐵龍"], traitsEn: ["Docile", "Smart"], traitsKo: ["溫和的", "聰明的"], Docile: [0, 10, 10, 30], Smart: [5, 0, 0, 30] },
     { name: ["Christmas Dragon", "聖誕龍"], traitsEn: ["Naive", "Docile"], traitsKo: ["天真爛漫的", "溫和的"], Naive: [30, 0, 15, 15], Docile: [0, 15, 15, 30] },
-    { name: ["Jango", "強格"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], Docile: [0, 10, 10, 30], Smart: [5, 0, 0, 30] },
+    { name: ["Jango", "強格"], traitsEn: ["Brave", "Quiet"], traitsKo: ["勇敢的", "冷靜的"], Brave: [0, 25, 10, 10], Quiet: [0, 10, 25, 10] },
 
     { name: ["divider", "🎨 創作龍 🎨"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Voodoo Dragon", "巫毒龍"], traitsEn: ["Quirky", "quickWitted"], traitsKo: ["反覆無常的", "眼尖的"], Quirky: [10, 20, 0, 10], quickWitted: [20, 0, 10, 10] },
@@ -43,6 +43,7 @@ const dragonList = [
     { name: ["Kangkang", "江江"], traitsEn: ["quickWitted", "Bold"], traitsKo: ["眼尖的", "大膽的"], quickWitted: [25, 0, 0, 5], Bold: [0, 25, 0, 5] },
     { name: ["Sullae", "水來"], traitsEn: ["Quirky", "Adamant"], traitsKo: ["反覆無常的", "固執的"], Quirky: [25, 0, 0, 5], Adamant: [0, 25, 0, 5] },
     { name: ["Eshu", "艾舒"], traitsEn: ["Quirky", "Naive"], traitsKo: ["反覆無常的", "天真爛漫的"], Quirky: [10, 25, 0, 10], Naive: [30, 0, 15, 15] },
+    { name: ["Jango", "強格"], traitsEn: ["Brave", "Quiet"], traitsKo: ["勇敢的", "冷靜的"], Brave: [0, 25, 10, 10], Quiet: [0, 10, 25, 10] },
     { name: ["Zombie Dragon", "殭屍"], traitsEn: ["Hasty", "Rash"], traitsKo: ["急躁的", "莽撞的"], Hasty: [20, 5, 5, 0], Rash: [25, 10, 0, 10] },
     { name: ["Bearded Dragon", "鬃獅蜥龍"], traitsEn: ["Bold", "Smart"], traitsKo: ["大膽的", "聰明的"], Bold: [0, 30, 0, 10], Smart: [0, 10, 0, 30] },
     { name: ["Caretaker God Dragon", "照護者古代神龍"], traitsEn: ["Docile", "Brave"], traitsKo: ["溫和的", "勇敢的"], Docile: [0, 10, 10, 30], Brave: [0, 25, 10, 10] },
