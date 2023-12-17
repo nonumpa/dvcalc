@@ -12,8 +12,10 @@
 
 ---
 
+
 ◻ [原作者GitHub](https://github.com/jbilee/dvc)
 
 ◻ [原作者計算機網站](https://jbilee.github.io/dvc/calc/)
 
+◻ [翻譯後計算機網站](https://yccccode.github.io/)
 ---
