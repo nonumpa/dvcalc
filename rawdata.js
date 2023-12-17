@@ -10,7 +10,8 @@ const dragonList = [
     { name: ["Tilki", "蒂爾基"], traitsEn: ["Naive", "Docile"], traitsKo: ["天真爛漫的", "溫和的"], Naive: [30, 0, 15, 15], Docile: [0, 15, 15, 30] },
     { name: ["Harika", "哈利卡"], traitsEn: ["Brave", "Naive"], traitsKo: ["勇敢的", "天真爛漫的"], Brave: [0, 30, 15, 15], Naive: [20, 0, 10, 10] },
     { name: ["Jujak", "朱雀"], traitsEn: ["quickWitted", "Adamant"], traitsKo: ["眼尖的", "固執的"], quickWitted: [20, 0, 0, 5], Adamant: [15, 30, 15, 0] },
-    { name: ["Kirin", "麒麟"], traitsEn: ["Calm", "Bold"], traitsKo: ["沉穩的", "大膽的(尚未確認)"], Calm: [10, 0, 25, 10], Bold: [0, 30, 0, 0] },
+    { name: ["Kirin", "麒麟"], traitsEn: ["Calm", "Bold"], traitsKo: ["沉穩的", "大膽的"], Calm: [10, 0, 25, 10], Bold: [0, 30, 10, 0] },
+    { name: ["White Applecheek", "白蘋果肌龍"], traitsEn: ["Rash", "Quiet"], traitsKo: ["莽撞的", "冷靜的"], Rash: [30, 10, 0, 10], Quiet: [0, 10, 20, 10] },
 
     { name: ["divider", "🎉 當前活動 🎉"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Clavis", "克拉薇思"], traitsEn: ["Adamant", "Quirky"], traitsKo: ["固執的", "反覆無常的"], Adamant: [10, 20, 10, 0], Quirky: [10, 25, 0, 10] },
@@ -79,7 +80,7 @@ const dragonList = [
     { name: ["Hyeonmu", "玄武"], traitsEn: ["Brave", "Bold"], traitsKo: ["勇敢的", "大膽的"], Brave: [0, 20, 5, 5], Bold: [0, 30, 0, 10] },
     { name: ["Blue Dragon", "青龍"], traitsEn: ["Docile", "Rash"], traitsKo: ["溫和的", "莽撞的"], Docile: [0, 5, 5, 20], Rash: [20, 10, 0, 10] },
     { name: ["Baekho", "白虎"], traitsEn: ["Brave", "Docile"], traitsKo: ["勇敢的", "溫和的"], Brave: [0, 20, 5, 5], Docile: [0, 15, 15, 30] },
-    { name: ["Kirin", "麒麟"], traitsEn: ["Calm", "Bold"], traitsKo: ["沉穩的", "大膽的(尚未確認)"], Calm: [10, 0, 25, 10], Bold: [0, 30, 0, 0] },
+    { name: ["Kirin", "麒麟"], traitsEn: ["Calm", "Bold"], traitsKo: ["沉穩的", "大膽的"], Calm: [10, 0, 25, 10], Bold: [0, 30, 10, 0] },
 
     { name: ["divider", "🔥 東尤塔勘 💧"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Pierrot Dragon", "小丑"], traitsEn: ["Lax", "Smart"], traitsKo: ["調皮的", "聰明的"], Lax: [10, 10, 0, 30], Smart: [0, 0, 5, 20] },
@@ -369,7 +370,7 @@ const dragonList = [
     { name: ["Lakion", "洛基溫"], traitsEn: ["Quirky", "Careful"], traitsKo: ["反覆無常的", "慎重的"], Quirky: [10, 25, 0, 10], Careful: [10, 10, 20, 0] },
 
     { name: ["divider", "❌ 尚未開放 ❌"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
-    { name: ["White Applecheek", "白蘋果肌龍"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] }
+    { name: ["123", "空位預留"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] }
 ];
 
 const specialTraits = [
