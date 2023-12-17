@@ -12,6 +12,8 @@ const dragonList = [
     { name: ["Jujak", "朱雀"], traitsEn: ["quickWitted", "Adamant"], traitsKo: ["眼尖的", "固執的"], quickWitted: [20, 0, 0, 5], Adamant: [15, 30, 15, 0] },
     { name: ["Kirin", "麒麟"], traitsEn: ["Calm", "Bold"], traitsKo: ["沉穩的", "大膽的"], Calm: [10, 0, 25, 10], Bold: [0, 30, 10, 0] },
     { name: ["White Applecheek", "白蘋果肌龍"], traitsEn: ["Rash", "Quiet"], traitsKo: ["莽撞的", "冷靜的"], Rash: [30, 10, 0, 10], Quiet: [0, 10, 20, 10] },
+    { name: ["Kangkang", "江江"], traitsEn: ["quickWitted", "Bold"], traitsKo: ["眼尖的", "大膽的"], quickWitted: [25, 0, 0, 5], Bold: [0, 25, 0, 5] },
+    { name: ["Sullae", "水來"], traitsEn: ["Quirky", "Adamant"], traitsKo: ["反覆無常的", "固執的"], Quirky: [10, 30, 0, 10], Adamant: [10, 25, 10, 0] },
 
     { name: ["divider", "🎉 當前活動 🎉"], traitsEn: ["unknown", "unknown"], traitsKo: ["目前未知", "目前未知"], unknown: [1, 1, 1, 1], unknown: [1, 1, 1, 1] },
     { name: ["Clavis", "克拉薇思"], traitsEn: ["Adamant", "Quirky"], traitsKo: ["固執的", "反覆無常的"], Adamant: [10, 20, 10, 0], Quirky: [10, 25, 0, 10] },
@@ -41,7 +43,7 @@ const dragonList = [
     { name: ["Cupi Friend", "邱比特友情龍"], traitsEn: ["Brave", "Hardy"], traitsKo: ["勇敢的", "努力的"], Brave: [0, 20, 5, 5], Hardy: [0, 0, 25, 0] },
     { name: ["Pangpang", "胖胖"], traitsEn: ["Hardy", "quickWitted"], traitsKo: ["努力的", "眼尖的"], Hardy: [0, 10, 10, 0], quickWitted: [30, 0, 10, 0] },
     { name: ["Kangkang", "江江"], traitsEn: ["quickWitted", "Bold"], traitsKo: ["眼尖的", "大膽的"], quickWitted: [25, 0, 0, 5], Bold: [0, 25, 0, 5] },
-    { name: ["Sullae", "水來"], traitsEn: ["Quirky", "Adamant"], traitsKo: ["反覆無常的", "固執的"], Quirky: [25, 0, 0, 5], Adamant: [0, 25, 0, 5] },
+    { name: ["Sullae", "水來"], traitsEn: ["Quirky", "Adamant"], traitsKo: ["反覆無常的", "固執的"], Quirky: [10, 30, 0, 10], Adamant: [10, 25, 10, 0] },
     { name: ["Eshu", "艾舒"], traitsEn: ["Quirky", "Naive"], traitsKo: ["反覆無常的", "天真爛漫的"], Quirky: [10, 25, 0, 10], Naive: [30, 0, 15, 15] },
     { name: ["Jango", "強格"], traitsEn: ["Brave", "Quiet"], traitsKo: ["勇敢的", "冷靜的"], Brave: [0, 25, 10, 10], Quiet: [0, 10, 25, 10] },
     { name: ["Zombie Dragon", "殭屍"], traitsEn: ["Hasty", "Rash"], traitsKo: ["急躁的", "莽撞的"], Hasty: [20, 5, 5, 0], Rash: [25, 10, 0, 10] },
