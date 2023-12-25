@@ -54,7 +54,8 @@ function selectDragon() {
     const firstTrait = document.querySelector("#trait1");
     const secondTrait = document.querySelector("#trait2");
     const dragonName = document.querySelector("#dragon-selector").value;
-    const dragonIndex = dragonList.findIndex((dragons) => { return dragons.name[0] === dragonName; });
+    const dragonIndex = dragonList.findIndex((dragons) => { return dragons.name[1] === dragonName; });
+    if(dragonIndex === -1) {document.querySelector("#start-trait-selector").setAttribute("disabled", ""); return;}
 
     // Enable trait selector
     document.querySelector("#start-trait-selector").removeAttribute("disabled");
@@ -74,8 +75,7 @@ function selectDragon() {
 function selectStartTrait(e) {
     const traitSelected = e.target.value;
     const dragonName = document.querySelector("#dragon-selector").value;
-    const dragonIndex = dragonList.findIndex((dragons) => { return dragons.name[0] === dragonName; });
-
+    const dragonIndex = dragonList.findIndex((dragons) => { return dragons.name[1] === dragonName; });
     // Fill in base stats
     STAT_LISTS.start.forEach((stat, i) => document.querySelector(stat).value = dragonList[dragonIndex][traitSelected][i]);
 

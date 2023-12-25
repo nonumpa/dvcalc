@@ -188,6 +188,10 @@ span.three {
         min-width: 700px;
     }
 
+    #dragon-selector {
+        width: 140px;
+    }
+
     #start-trait-selector {
         width: 100px;
     }

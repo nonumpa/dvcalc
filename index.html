@@ -27,9 +27,9 @@
         document.addEventListener("DOMContentLoaded", function () {
             for (let i = 0; i < dragonList.length; i++) {
                 const newOption = document.createElement("option");
-                newOption.setAttribute("value", dragonList[i].name[0]);
-                newOption.textContent = dragonList[i].name[1];
-                document.querySelector("#dragon-selector").append(newOption);
+                newOption.setAttribute("data-value", dragonList[i].name[0]);
+                newOption.setAttribute("value", dragonList[i].name[1]);
+                document.querySelector("#dragon-list").append(newOption);
             }
 
             for (let i = 0; i < normalTraits.length; i++) {
@@ -168,9 +168,13 @@
             <div id="controls">
                 <div class="sel1">
                     <h3>選擇龍種:</h3>
-                    <select name="dragon-selector" id="dragon-selector" onchange="selectDragon()">
-                        <option selected disabled>龍</option>
-                    </select>
+                    <input list="dragon-list" id="dragon-selector" name="dragon-selector" placeholder="龍" onchange="selectDragon()">
+                    <datalist id="dragon-list" name="dragon-list">
+                        <!-- fallback -->
+                        <!-- <select name="dragon-selector" id="dragon-selector" onchange="selectDragon()">
+                        </select> -->
+                    </datalist> 
+
                     <select name="trait-selector" id="start-trait-selector" onchange="selectStartTrait(event)" disabled>
                         <option selected disabled>初始個性</option>
                         <option value="" id="trait1">-</option>
